@@ -19,16 +19,14 @@ ${data.description}
 
 ## Table of Contents:
 - [Installation](#installation)
-- [Usage] (#usage)
+- [Usage](#usage)
 - [Contribution](#contribution)
 - [Test instructions](#test)
 - [License](#license)
 - [Questions](#questions)
 
 ## Installation
-... 
 ${data.installation}
-...
 
 ## Usage:
 ${data.usage}

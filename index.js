@@ -97,7 +97,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Provide your GitHub username.',
+        message: 'Provide your GitHub username',
         validate: linkInput => {
             if (linkInput) {
                 return true;

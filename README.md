@@ -1,34 +1,32 @@
-# t
+# readme-generator
 
 ## Description:
-t
+readme generator
 
 ## Table of Contents:
 - [Installation](#installation)
-- [Usage] (#usage)
+- [Usage](#usage)
 - [Contribution](#contribution)
 - [Test instructions](#test)
 - [License](#license)
 - [Questions](#questions)
 
 ## Installation
-... 
-t
-...
+download and install
 
 ## Usage:
-t
+free to use
 
 ## Contribution:
-t
+thuy
 
 ## Test:
-t
+run
 
 ## License:
 This project is licensed under:  MIT
 
 
 ## Questions:
-- If you have any questions, please email me at t
-- My GitHub link: t
+- If you have any questions, please email me at 123@gmail.com
+- [My GitHub link](https://github.com/thuytttn)
