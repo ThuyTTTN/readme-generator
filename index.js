@@ -7,6 +7,32 @@ const generateMd = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
+        name: 'email',
+        message: 'Provide your email address',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please provide an email');
+                return false;
+            }
+        }   
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Provide your GitHub username',
+        validate: linkInput => {
+            if (linkInput) {
+                return true;
+            } else {
+                console.log('Please enter the GitHub username');
+                return false;
+            }
+        }   
+    }, 
+    {
+        type: 'input',
         name: 'title',
         message: 'Provide the title of your project',
         validate: titleInput => {
@@ -58,15 +84,15 @@ const questions = [
         }
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        message: 'Select licenses (check all that apply)',
-        choices: [' MIT',' GNU', ' BSD', ' none']
+        message: 'Select license',
+        choices: ['MIT','GNU', 'BSD', 'none']
     },
     {
         type: 'input',
         name: 'contribution',
-        message: 'List name(s) of all who contributed'
+        message: 'What are your contribution guidelines'
     },
     {
         type: 'input',
@@ -80,37 +106,8 @@ const questions = [
                 return false;
             }
         }
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Email for questions',
-        validate: emailInput => {
-            if (emailInput) {
-                return true;
-            } else {
-                console.log('Please provide an email');
-                return false;
-            }
-        }   
-    },
-    {
-        type: 'input',
-        name: 'github',
-        message: 'Provide your GitHub username',
-        validate: linkInput => {
-            if (linkInput) {
-                return true;
-            } else {
-                console.log('Please enter the GitHub username');
-                return false;
-            }
-        }   
-    }          
-
+    },        
 ]
-   
-
 
 
 // TODO: Create a function to write README file

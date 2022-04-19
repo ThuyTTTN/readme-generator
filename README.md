@@ -1,7 +1,9 @@
-# readme-generator
+# s
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-readme generator
+s
 
 ## Table of Contents:
 - [Installation](#installation)
@@ -12,21 +14,23 @@ readme generator
 - [Questions](#questions)
 
 ## Installation
-download and install
+Run the following command for installation:
+- s
 
 ## Usage:
-free to use
+s
 
 ## Contribution:
-thuy
+j
 
 ## Test:
-run
+Run the following comand to run the test:
+- j
 
 ## License:
-This project is licensed under:  MIT
+MIT
 
 
 ## Questions:
-- If you have any questions, please email me at 123@gmail.com
-- [My GitHub link](https://github.com/thuytttn)
+- If you have any questions, please email me at s
+- [My GitHub link](https://github.com/s)
