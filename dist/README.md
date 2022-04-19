@@ -1,9 +1,9 @@
-# q
+# readme-generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-- q
+- readme generator
 
 ## Table of Contents:
 - [Installation](#installation)
@@ -15,22 +15,22 @@
 
 ## Installation
 Run the following command for installation:
-- q
+- clone code and install npm install
 
 ## Usage:
-- q
+- answer questions
 
 ## Contribution:
-- q
+- share
 
 ## Test:
 Run the following comand to run the test:
-- q
+- answer questions
 
 ## License:
 - MIT
 
 
 ## Questions:
-- If you have any questions, please email me at q
-- [My GitHub link](https://github.com/q)
+- If you have any questions, please email me at 123@gmail.com
+- [My GitHub link](https://github.com/thuytttn)

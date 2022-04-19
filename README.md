@@ -10,10 +10,10 @@ Clone the code from gitHub onto your local computer, then run 'npm install' in t
 Run 'node index.js' in the command-line interface, then answer the provided prompt questions.  README file will be generated once all questions have been answered.
 
 ## Video link:
-
+[README video walkthrough](../readme-generator/media/)
 
 ## GitHub link:
-
+[My GitHub link](https://thuytttn.github.io/readme-generator/)
 
 ## License:
 MIT
