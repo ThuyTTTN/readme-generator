@@ -110,26 +110,19 @@ const questions = [
 ]
 
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-inquirer.prompt(questions)
-.then(answers => {
-    fs.writeFile('README.md', generateMd(answers), (err) => {
-        //if there is any error in writing to the file, return
-        if (err) {
-            console.error(err)
-            return;
-        }
-    })
-})
-
-
 // TODO: Create a function to initialize app
 function init() {
-  
+    inquirer.prompt(questions)
+    .then(answers => {
+        fs.writeFile('README.md', generateMd(answers), (err) => {
+        //if there is any error in writing to the file, return
+            if (err) {
+                console.error(err)
+            return;
+            }
+        })
+    })
 }
-
 
 // Function call to initialize app
 init();

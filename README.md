@@ -1,9 +1,9 @@
-# s
+# readme-generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-s
+- generating readme.md file
 
 ## Table of Contents:
 - [Installation](#installation)
@@ -15,22 +15,22 @@ s
 
 ## Installation
 Run the following command for installation:
-- s
+- npm install
 
 ## Usage:
-s
+- share and have fun!
 
 ## Contribution:
-j
+- fork gitHub 
 
 ## Test:
 Run the following comand to run the test:
-- j
+- npm test
 
 ## License:
-MIT
+- MIT
 
 
 ## Questions:
-- If you have any questions, please email me at s
-- [My GitHub link](https://github.com/s)
+- If you have any questions, please email me at 123@gmail.com
+- [My GitHub link](https://github.com/thuytttn)
