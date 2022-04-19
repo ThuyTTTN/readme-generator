@@ -60,28 +60,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Provide installation instructions',
-        validate: installationInput => {
-            if (installationInput) {
-                return true;
-            } else {
-                console.log('Please provide installation instructions');
-                return false;
-            }
-        }
+        message: 'Provide installation instructions'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide usage information',
-        validate: usageInput => {
-            if (usageInput) {
-                return true;
-            } else {
-                console.log('Please provide usage information');
-                return false;
-            }
-        }
+        message: 'Provide usage information'
     },
     {
         type: 'list',
@@ -97,15 +81,7 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Provide test instructions',
-        validate: testInput => {
-            if (testInput) {
-                return true;
-            } else {
-                console.log('Please provide test instructions');
-                return false;
-            }
-        }
+        message: 'Provide test instructions'
     },        
 ]
 
@@ -114,7 +90,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then(answers => {
-        fs.writeFile('README.md', generateMd(answers), (err) => {
+        fs.writeFile('./dist/README.md', generateMd(answers), (err) => {
         //if there is any error in writing to the file, return
             if (err) {
                 console.error(err)
